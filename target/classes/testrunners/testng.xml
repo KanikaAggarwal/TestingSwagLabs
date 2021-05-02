@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test automtion suite">
+
+<listeners>
+<listener class-name = "com.qa.saucedemo.testlisteners.ExtentReportListner" />
+</listeners>
+
+	<test name="LoginPageTest">
+		<classes>
+			<class name="com.qa.saucedemo.test.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="TC1LoginPageError">
+		<classes>
+			<class name="com.qa.saucedemo.test.TC1LoginPageError" />
+		</classes>
+	</test>
+	
+</suite>
